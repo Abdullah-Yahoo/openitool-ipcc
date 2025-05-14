@@ -1,0 +1,12 @@
+{
+    "bundles": [
+        {
+            "bundle_name": "Default",
+            "tar_file": "Default.tar",
+            "sha1": "55d3fde8b4fceee3a782c5077e9a3fd06b8bc618",
+            "file_size": 1607680,
+            "created_at": "2025-05-14T17:36:03.445373+00:00"
+        }
+    ],
+    "updated_at": "2025-05-14T17:36:03.450549+00:00"
+}
