@@ -15,7 +15,7 @@ J = TypeVar("J")
 
 
 def process_files_with_git(ident: str):
-    subprocess.run(["git", "add", ident], check=True)
+    subprocess.run(["git", "add", "."], check=True)
     subprocess.run(["git", "stash", "push"], check=True)
     subprocess.run(["git", "switch", "-f", "files"], check=True)
     subprocess.run(["git", "stash", "pop"], check=True)

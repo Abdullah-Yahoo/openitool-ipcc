@@ -581,6 +581,7 @@ async def fetch_and_bake(
         logger.warning(f"No firmwares found for {model}")
         return
 
+    del parsed_data.firmwares[1:]
     ident = parsed_data.firmwares[0].identifier
 
     if git_mode:
